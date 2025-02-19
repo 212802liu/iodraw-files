@@ -176,6 +176,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="VaUx1LSz6iURFdwbU9xL-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gZGoxkaskihQq3gGV2Cr-19" target="gZGoxkaskihQq3gGV2Cr-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
