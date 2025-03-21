@@ -87,6 +87,9 @@
         <mxCell id="Qhl0pfdUMInI0t96ZpdJ-39" value="判断占有锁" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="-125" y="320" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="1uJjRAk-Tdz_egXBF5VM-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Qhl0pfdUMInI0t96ZpdJ-41" target="1uJjRAk-Tdz_egXBF5VM-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Qhl0pfdUMInI0t96ZpdJ-41" value="将条件队列依次入阻塞队列，并设置waitStatus 为signal（可唤醒状态）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-165" y="445" width="160" height="70" as="geometry" />
         </mxCell>
@@ -106,7 +109,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="1uJjRAk-Tdz_egXBF5VM-2" value="LockSupport.unpark(node.thread)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="35" y="560" width="190" height="80" as="geometry" />
+          <mxGeometry x="-180" y="550" width="190" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
